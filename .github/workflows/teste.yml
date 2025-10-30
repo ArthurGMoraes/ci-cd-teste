@@ -17,7 +17,7 @@ jobs:
           python-version: "3.x"
 
       - name: Executar script
-        run: python main.py
+        run: python test_sample.py
 
       - name: Instalar dependências
         run: pip install pytest
